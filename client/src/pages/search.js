@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { toast } from "react-toastify";
-import Book from "../components/Book/index";
-import SearchForm from "../components/SearchForm/index";
+import Book from "../components/Books/index";
+import SearchForm from "../components/FormSearch/formsearch";
 import { List } from "../components/List/index";
-import API from "../utils/API";
+import API from "../utilities/API";
 
 class Search extends Component {
     state = {

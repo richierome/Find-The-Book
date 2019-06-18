@@ -9,7 +9,7 @@ module.exports = {
 
         const { query: params } = req;
         axios
-            .get("AIzaSyB3KjUtoheFv963i0VyQmTDB8c0HwcAofQ", {
+            .get("'AIzaSyBJjIUZjYYopTYcTatDYJRxf9ZvKj-xDcQ'", {
                 params
             })
             .then(results =>

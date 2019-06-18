@@ -1,14 +1,14 @@
 import React from "react";
-import { URL, NavLink } from "react-router-dom";
+import { Link,  } from "react-router-dom";
 import "./style.css";
 const NavBar = () => {
     return (
         <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light">
-                <URL className="navbar-brand brand-title" to="#">
+                <Link className="navbar-brand brand-title" to="#">
                     Google Books Search
-        </URL>
-                <button
+        </Link>
+                {/* <button
                     className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
@@ -18,18 +18,18 @@ const NavBar = () => {
                     aria-label="Toggle navigation"
                 >
                     <span className="navbar-toggler-icon" />
-                </button>
+                </button> */}
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink className="nav-link heading-title" to="/search">
+                            <Link className="nav-link heading-title" to="/search">
                                 Search
-              </NavLink>
+              </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link heading-title" to="/saved">
+                            <Link className="nav-link heading-title" to="/saved">
                                 Saved
-              </NavLink>
+              </Link>
                         </li>
                     </ul>
                 </div>

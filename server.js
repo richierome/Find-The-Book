@@ -13,7 +13,7 @@ app.use(routes);
 app.use(logger("dev"));
 
 // MongoDB Configuration configuration (Change this URL to your own DB)
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/books";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/ricksDB";
 
 // Connect to the Mongo DB
 mongoose.Promise = Promise;

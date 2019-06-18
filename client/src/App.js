@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import { ToastContainer } from "react-toastify";
-import { Route, Redirect, Switch } from "react-router-dom";
+import { Route, Redirect, Switch,BrowserRouter } from "react-router-dom";
 import Search from "./pages/search";
 import Saved from "./pages/save";
 import NotFound from "./pages/notFound";
-import Navigate from "./components/Navigate";
-import Footer from "./components/Footer";
+import Navigate from "./components/Navigate/navigate";
+import Footer from "./components/Footer/footer";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 
 class App extends Component {
   render() {
     return (
+      <BrowserRouter>
       <React.Fragment>
         <ToastContainer />
         <section className="hero-is-fullheight">
@@ -32,6 +33,7 @@ class App extends Component {
           </div>
         </section>
       </React.Fragment>
+      </BrowserRouter>
     );
   }
 }
