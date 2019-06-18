@@ -1,3 +1,11 @@
+## Google Books
+ An application that allows you to add books coming from the google books search for new books and save optional books to buy
+ ## Technologies Used:
+ ## Mongo
+ ## Express
+ ## React
+ ## Node
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
