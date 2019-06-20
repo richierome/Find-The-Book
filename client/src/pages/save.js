@@ -41,20 +41,24 @@ class Saved extends Component {
                     <div className="col-8 col-centered">
                         <div className="d-flex flex-row bd-highlight mb-3 justify-content-center align-items-center">
                             <div className="p-2 bd-highlight">
-                                <img
+                                {/* <img
                                     className="image-250"
                                     src="/images/img-books-window.jpg"
                                     alt="React Google Books Search"
-                                />
+                                /> */}
                             </div>
                             <div className="p-2 bd-highlight">
                                 <h1 className="heading-title mx-sm-3 mb-2">
                                     React Google Books Search
                 </h1>
 
-                                <h2 className="heading-subtitle mx-sm-3 mb-2 text-center">
-                                    Showing {count} books in the database.
+                                <h2 className="heading-subtitle mx-sm-3 mb-2 text-center"><br></br>
+                                    Showing {count} books in the database. 
                 </h2>
+                <h2 className="heading-subtitle mx-sm-3 mb-2 text-center"><br></br>
+                                  PLease select a book!
+                </h2>
+               
                             </div>
                         </div>
                     </div>
@@ -83,10 +87,14 @@ class Saved extends Component {
                                 ))}
                             </List>
                         ) : (
-                                <div className="mockup-content">
+                                <div className="mockup-content"> 
                                     <h2 className="brand-title text-center">
+                                                                  
                                         No saved books in the database
+                                       
+                                        
                 </h2>
+                
                                 </div>
                             )}
                     </div>
