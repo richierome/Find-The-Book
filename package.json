@@ -4,7 +4,7 @@
   "description": "A react based Google Books search app. Create React components, display books based on user searches. Use Node and Express and MonogoDB so that users can save the books to review or purchase later",
   "main": "server.js",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "goodreads.js": "0.0.9",
